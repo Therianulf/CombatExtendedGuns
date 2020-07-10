@@ -42,7 +42,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_BoltActionRifle"]/label</xpath>
     <value>
-      <label>Lee-Enfield</label>
+      <label>Mosin Nagant</label>
     </value>
   </Operation>
 
