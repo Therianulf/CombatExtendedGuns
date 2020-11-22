@@ -1574,11 +1574,11 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-      <MarketValue>35.72</MarketValue>
+      <MarketValue>45.72</MarketValue>
       <SightsEfficiency>1.0</SightsEfficiency>
       <ShotSpread>0.2</ShotSpread>
       <SwayFactor>1.24</SwayFactor>
-      <Bulk>15.79</Bulk>
+      <Bulk>11.79</Bulk>
       <Mass>2.5</Mass>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
@@ -1592,8 +1592,8 @@
         <defaultProjectile>Bullet_M72LAW</defaultProjectile>
         <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
         <warmupTime>1.9</warmupTime>
-        <range>31</range>
-        <minRange>5</minRange>
+        <range>35</range>
+        <minRange>7</minRange>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -1651,10 +1651,10 @@
 
   <RecipeDef ParentName="GrenadeRecipeBase">
     <defName>MakeM72LAW</defName>
-    <label>make M72 LAW x5</label>
-    <description>Craft 5 M72 LAW launchers.</description>
+    <label>make M72 LAW x4</label>
+    <description>Craft 4 M72 LAW launchers.</description>
     <jobString>Making M72 LAW launchers.</jobString>
-    <workAmount>6200</workAmount>
+    <workAmount>6900</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -1662,7 +1662,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>26</count>
+        <count>40</count>
       </li>
       <li>
         <filter>
@@ -1670,7 +1670,7 @@
             <li>FSX</li>
           </thingDefs>
         </filter>
-        <count>6</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -1689,7 +1689,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <CE_Gun_M72LAW>5</CE_Gun_M72LAW>
+      <CE_Gun_M72LAW>4</CE_Gun_M72LAW>
     </products>
     <researchPrerequisite>CE_Launchers</researchPrerequisite>
   </RecipeDef>

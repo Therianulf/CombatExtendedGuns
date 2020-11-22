@@ -1578,7 +1578,7 @@
       <SightsEfficiency>1.0</SightsEfficiency>
       <ShotSpread>0.2</ShotSpread>
       <SwayFactor>1.24</SwayFactor>
-      <Bulk>15.79</Bulk>
+      <Bulk>10.79</Bulk>
       <Mass>2.5</Mass>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
@@ -1592,8 +1592,8 @@
         <defaultProjectile>Bullet_M72LAW</defaultProjectile>
         <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
         <warmupTime>1.9</warmupTime>
-        <range>31</range>
-        <minRange>5</minRange>
+        <range>35</range>
+        <minRange>6</minRange>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
