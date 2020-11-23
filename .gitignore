@@ -1,2 +1,4 @@
 */Thumbs.db
 /.vs/*
+.DS_Store
+*/.DS_Store
